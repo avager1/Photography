@@ -184,16 +184,23 @@ a{
     object-fit: cover;
 }
 
-/* ---------照片墙---------- */
-.box{
-    background-color: pink;
-    
+.kongbai{
+    width: 100%;
+
+    height: 20px;
 }
 
-.box img{
-    float: left;
-    height: 200px;
-    margin:5px 5px
-;
+/* ---------照片墙---------- */
+.container{
+    width: 95%;
+    margin:0 auto;
+    position: relative;
 }
-    
+
+
+.container img{
+    position: absolute;
+    transition: 0.3s;
+}
+
+
